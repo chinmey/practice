@@ -1,0 +1,14 @@
+write an alp to compare 30h with 32h and so the flag status requirement?
+
+there are 5 typew sof flag carry , pairity, zero, exulary carry,sign flag
+
+write an alp to add and subtact 44h and 45h
+
+write an alp to multiply 8 bit number
+
+WRITE AN alp to divide two 8 bit number.
+
+
+---------------------------------------------------------------------------------
+
+huffman encoding bhi priority_queue se hota h seekh lena hoga

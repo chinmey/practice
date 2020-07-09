@@ -1,0 +1,20 @@
+So why is Binary Heap Preferred for Priority Queue?
+
+Since Binary Heap is implemented using arrays, there is always better locality of reference and operations are more cache friendly.
+Although operations are of same time complexity, constants in Binary Search Tree are higher.
+We can build a Binary Heap in O(n) time. Self Balancing BSTs require O(nLogn) time to construct.
+Binary Heap doesn’t require extra space for pointers.
+Binary Heap is easier to implement.
+There are variations of Binary Heap like Fibonacci Heap that can support insert and decrease-key in T(1) time
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+
+Is Binary Heap always better?
+Although Binary Heap is for Priority Queue, BSTs have their own advantages and the list of advantages is in-fact bigger compared to binary heap.
+
+Searching an element in self-balancing BST is O(Logn) which is O(n) in Binary Heap.
+We can print all elements of BST in sorted order in O(n) time, but Binary Heap requires O(nLogn) time.
+Floor and ceil can be found in O(Logn) time.
+K’th largest/smallest element be found in O(Logn) time by augmenting tree with an additional field.
